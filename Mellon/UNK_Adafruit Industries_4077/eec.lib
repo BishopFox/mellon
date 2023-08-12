@@ -1,0 +1,85 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Adafruit Industries 4077
+#
+DEF 4077 MD 0 40 Y Y 1 L N
+F0 "MD" 0 200 50 H V L CNN 
+F1 "4077" 0 300 50 H V L CNN 
+F2 "Adafruit_Industries-4077-*" 0 400 50 H I L CNN 
+F3 "https://www.raytac.com/download/index.php?index_id=27" 0 500 50 H I L CNN 
+F4 "+85°C" 0 600 50 H I L CNN "ambient temperature range high"
+F5 "-40°C" 0 700 50 H I L CNN "ambient temperature range low"
+F6 "No" 0 800 50 H I L CNN "automotive"
+F7 "140MHz" 0 900 50 H I L CNN "bandwidth"
+F8 "UNK" 0 1000 50 H I L CNN "category"
+F9 "Integrated Circuits (ICs)" 0 1100 50 H I L CNN "device class L1"
+F10 "RF Semiconductors and Devices" 0 1200 50 H I L CNN "device class L2"
+F11 "Transceivers" 0 1300 50 H I L CNN "device class L3"
+F12 "RX TXRX MOD BLUETOOTH CHIP SMD" 0 1400 50 H I L CNN "digikey description"
+F13 "1528-2837-ND" 0 1500 50 H I L CNN "digikey part number"
+F14 "2.2mm" 0 1600 50 H I L CNN "height"
+F15 "I2C,SPI,UART,2-Wire,I2S,Other" 0 1700 50 H I L CNN "interface"
+F16 "Yes" 0 1800 50 H I L CNN "lead free"
+F17 "32740d4afdc6955e" 0 1900 50 H I L CNN "library id"
+F18 "Adafruit Industries" 0 2000 50 H I L CNN "manufacturer"
+F19 "2500MHz" 0 2100 50 H I L CNN "max frequency"
+F20 "3.6V" 0 2200 50 H I L CNN "max supply voltage"
+F21 "1.7V" 0 2300 50 H I L CNN "min supply voltage"
+F22 "Nrf52832 Bluetooth Low Energy Module - Mdbt42Q-512Kv2" 0 2400 50 H I L CNN "mouser description"
+F23 "485-4077" 0 2500 50 H I L CNN "mouser part number"
+F24 "32" 0 2600 50 H I L CNN "number of GPIO"
+F25 "MD_16MM0_10MM0" 0 2700 50 H I L CNN "package"
+F26 "5.4mA" 0 2800 50 H I L CNN "receiving current"
+F27 "Yes" 0 2900 50 H I L CNN "rohs"
+F28 "-96dBm" 0 3000 50 H I L CNN "sensitivity"
+F29 "+85°C" 0 3100 50 H I L CNN "temperature range high"
+F30 "-40°C" 0 3200 50 H I L CNN "temperature range low"
+F31 "16.6mA" 0 3300 50 H I L CNN "transmitting current"
+DRAW
+X VDD 11 100 0 100 R 40 40 1 1 W 
+X DCC 10 100 -200 100 R 40 40 1 1 W 
+X DEC4 9 100 -400 100 R 40 40 1 1 W 
+X P0.00/XL1 13 100 -600 100 R 40 40 1 1 B 
+X P0.01/XL2 14 100 -700 100 R 40 40 1 1 B 
+X P0.02 15 100 -800 100 R 40 40 1 1 B 
+X P0.03 16 100 -900 100 R 40 40 1 1 B 
+X P0.04 17 100 -1000 100 R 40 40 1 1 B 
+X P0.05 18 100 -1100 100 R 40 40 1 1 B 
+X P0.06 19 100 -1200 100 R 40 40 1 1 B 
+X P0.07 20 100 -1300 100 R 40 40 1 1 B 
+X P0.08 21 100 -1400 100 R 40 40 1 1 B 
+X P0.09 22 100 -1500 100 R 40 40 1 1 B 
+X P0.10 23 100 -1600 100 R 40 40 1 1 B 
+X P0.11 25 100 -1700 100 R 40 40 1 1 B 
+X P0.12 26 100 -1800 100 R 40 40 1 1 B 
+X P0.13 27 100 -1900 100 R 40 40 1 1 B 
+X P0.14 28 100 -2000 100 R 40 40 1 1 B 
+X P0.15 29 100 -2100 100 R 40 40 1 1 B 
+X P0.16 30 100 -2200 100 R 40 40 1 1 B 
+X P0.17 31 2400 0 100 L 40 40 1 1 B 
+X P0.18 32 2400 -100 100 L 40 40 1 1 B 
+X P0.19 33 2400 -200 100 L 40 40 1 1 B 
+X P0.20 34 2400 -300 100 L 40 40 1 1 B 
+X P0.21/RESET 35 2400 -400 100 L 40 40 1 1 B 
+X P0.22 38 2400 -500 100 L 40 40 1 1 B 
+X P0.23 41 2400 -600 100 L 40 40 1 1 B 
+X P0.24 40 2400 -700 100 L 40 40 1 1 B 
+X P0.25 2 2400 -800 100 L 40 40 1 1 B 
+X P0.26 3 2400 -900 100 L 40 40 1 1 B 
+X P0.27 4 2400 -1000 100 L 40 40 1 1 B 
+X P0.28 5 2400 -1100 100 L 40 40 1 1 B 
+X P0.29 6 2400 -1200 100 L 40 40 1 1 B 
+X P0.30 7 2400 -1300 100 L 40 40 1 1 B 
+X P0.31 8 2400 -1400 100 L 40 40 1 1 B 
+X SWDCLK 36 2400 -1600 100 L 40 40 1 1 I C
+X SWDIO 37 2400 -1700 100 L 40 40 1 1 B 
+X GND 1 2400 -1900 100 L 40 40 1 1 W 
+X GND 12 2400 -2000 100 L 40 40 1 1 W 
+X GND 24 2400 -2100 100 L 40 40 1 1 W 
+X GND 39 2400 -2200 100 L 40 40 1 1 W 
+S 200 100 2300 -2300 1 1 0 f
+ENDDRAW
+ENDDEF
+#
+# End Library

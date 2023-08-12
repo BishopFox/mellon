@@ -1,0 +1,7 @@
+*.bak
+*.bck
+
+..gitignore.un~
+.README.md.un~
+.gitignore~
+README.md~

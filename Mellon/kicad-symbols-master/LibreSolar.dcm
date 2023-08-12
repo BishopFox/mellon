@@ -1,0 +1,294 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 24AAxx-OT
+D Microchip 24AAxx/24LCxx I2C EEPROM, SOT-23-5
+K EEPROM
+$ENDCMP
+#
+$CMP AP2210-3.3
+D 300mA low dropout linear regulator, shutdown pin, 1.5V fixed positive output, SOT-23-5 package
+K linear regulator ldo fixed positive
+F http://www.diodes.com/_files/datasheets/AP131.pdf
+$ENDCMP
+#
+$CMP AP22802A
+D Single power-distribution switcher
+K 1-chanel power-distribution USB
+$ENDCMP
+#
+$CMP Battery
+D Battery
+K battery
+$ENDCMP
+#
+$CMP C
+D Unpolarized capacitor
+K capacitor
+$ENDCMP
+#
+$CMP CP
+D Polarized capacitor
+K capacitor
+$ENDCMP
+#
+$CMP CommsExt_2x8
+D Communication Extension board for Libre Solar charge controllers
+$ENDCMP
+#
+$CMP Crystal
+D Two pin crystal
+K Quartz, Resonator, Ceramic, Filter
+$ENDCMP
+#
+$CMP D
+D Diode
+$ENDCMP
+#
+$CMP D_Schottky
+D Schottky diode
+K schottky diode
+$ENDCMP
+#
+$CMP D_Zener
+D Zener diode
+K zener diode
+$ENDCMP
+#
+$CMP Fuse
+D Fuse
+$ENDCMP
+#
+$CMP Fuse_Holder
+D Fuse holder
+K fuse holder
+$ENDCMP
+#
+$CMP Fuse_PlugIn
+D Fuse (plug-in)
+$ENDCMP
+#
+$CMP INA186
+D Bidirectional, Low- and High-Side Voltage Output, Current-Sense Amplifier, SC-70
+K current monitor shunt sensor bidirectional
+F http://www.ti.com/lit/ds/symlink/ina186.pdf
+$ENDCMP
+#
+$CMP INA2181
+D Bidirectional, Low- and High-Side Voltage Output, Current-Sense Amplifiers
+F https://www.ti.com/lit/ds/symlink/ina2181.pdf
+$ENDCMP
+#
+$CMP INA303
+D 36-V, Overcurrent Protection, Precision, Current-Sense Amplifiers With Dual Integrated Comparators
+F https://www.ti.com/lit/ds/symlink/ina303.pdf
+$ENDCMP
+#
+$CMP ISL94202
+D Standalone 3 to 8 Cell Li-Ion Battery Pack Monitor
+K bms li-ion battery monitor
+F https://www.renesas.com/eu/en/doc/datasheet/isl94202.pdf
+$ENDCMP
+#
+$CMP Jumper_NC_Small
+D Jumper normally close
+K Jumper, Link
+$ENDCMP
+#
+$CMP Jumper_NO_Small
+D Jumper normally open
+K Jumper, Link
+$ENDCMP
+#
+$CMP L
+D Inductor
+$ENDCMP
+#
+$CMP LD39200_DFN6
+D 2 A high PSRR ultra low drop linear regulator with reverse current protection
+K linear regulator ldo fixed positive low noise low quienscent current
+F https://www.st.com/resource/en/datasheet/ld39200.pdf
+$ENDCMP
+#
+$CMP LED
+D Light emitting diode
+K LED diode
+$ENDCMP
+#
+$CMP LED_Dual_CACA_BackToBack
+D Dual LED, cathodes on pins 1 and 3
+K LED diode bicolor dual
+F ~
+$ENDCMP
+#
+$CMP LM5107
+D 100V / 1.4-A Peak Half Bridge Gate Driver
+K half bridge gate driver
+$ENDCMP
+#
+$CMP LMR16006
+D SIMPLE SWITCHER® 4V to 60V, 600mA Step-Down Regulator with Low Iq
+K switching buck converter power-supply voltage regulator
+$ENDCMP
+#
+$CMP LMR33630
+D SIMPLE SWITCHER® 3.8V to 36V, 3A Synchronous Buck Converter With Ultra-Low EMI
+$ENDCMP
+#
+$CMP LP38693-ADJ
+D 500mA Low Dropout CMOS Linear Regulators with Adjustable Output, Stable with Ceramic Output Capacitors
+K LDO
+F http://www.ti.com/lit/ds/symlink/lp38691-adj.pdf
+$ENDCMP
+#
+$CMP L_Filter
+D EMI Filter Inductor
+K EMI
+$ENDCMP
+#
+$CMP Logo_Libre_Solar
+D Libre Solar Logo
+K logo libre solar
+$ENDCMP
+#
+$CMP Logo_Open_Hardware_Small
+D small Open Hardware Logo
+K Logo
+F ~
+$ENDCMP
+#
+$CMP OLED_I2C
+D 128x64 SSD1306 OLED display
+K display LCD 7-segment
+$ENDCMP
+#
+$CMP OpAmp_Single_Generic
+D SOT-23-5
+K single opamp
+$ENDCMP
+#
+$CMP POT
+D Potentiometer
+K R
+$ENDCMP
+#
+$CMP Q_NMOS
+D Transistor N-MOSFET (general)
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP Q_NMOS_small
+D Transistor N-MOSFET (general)
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP Q_PMOS
+D Transistor P-MOSFET (general)
+K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
+$CMP R
+D Resistor
+$ENDCMP
+#
+$CMP R_Array_4
+D Resistor Array / Network
+K resistor array
+$ENDCMP
+#
+$CMP R_NTC
+D Thermistor with Negative Temperature Coefficient (NTC)
+K ntc thermistor
+$ENDCMP
+#
+$CMP R_PACK4
+D 4 resistors Pack
+K R DEV
+$ENDCMP
+#
+$CMP R_PACK8
+D 8 resistors Pack
+K R DEV
+$ENDCMP
+#
+$CMP R_PTC
+D Thermistor with Positive Temperature Coefficient (PTC)
+K ptc thermistor
+$ENDCMP
+#
+$CMP Resonator
+D Three pin ceramic resonator
+K Resonator Ceramic
+$ENDCMP
+#
+$CMP SI8621AB
+D Low Power Dual-Channel 1/1 Digital Isolator, 1Mbps, 35ns, SO8
+K 2Ch Dual Digital Isolator
+F https://www.silabs.com/documents/public/data-sheets/si86xx-1Mbps-datasheet.pdf
+$ENDCMP
+#
+$CMP SIM800L_Module
+D Red pre-assembled SIM800L module used for Arduino etc.
+$ENDCMP
+#
+$CMP STM32G431CBTx
+D ARM Cortex-M4 MCU, 128KB flash, 22KB RAM, 170MHz, 1.71-3.6V, 66 GPIO, LQFP-48
+K ARM Cortex-M4 STM32G3 STM32G431
+F https://www.st.com/resource/en/datasheet/stm32g431cb.pdf
+$ENDCMP
+#
+$CMP STM32G431RBTx
+D ARM Cortex-M4 MCU, 128KB flash, 22KB RAM, 170MHz, 1.71-3.6V, 86 GPIO, LQFP-64
+K ARM Cortex-M4 STM32G3 STM32G431
+F https://www.st.com/resource/en/datasheet/stm32g431rb.pdf
+$ENDCMP
+#
+$CMP ST_Nucleo_SWD
+D STM32 Nucleo Board SWD connector
+K stm32 nucleo swd
+$ENDCMP
+#
+$CMP ST_Nucleo_SWD_5p
+D STM32 Nucleo Board SWD connector (5 pins w/o SWO)
+K stm32 nucleo swd
+$ENDCMP
+#
+$CMP SW_PUSH
+D Button
+K Switch
+$ENDCMP
+#
+$CMP Screw_Terminal_1x02_Large
+D Generic screw terminal 1x02
+$ENDCMP
+#
+$CMP Screw_Terminal_1x03_Large
+D Generic screw terminal 1x03
+$ENDCMP
+#
+$CMP Switch_DPST
+D Double Pole Single Throw (DPST) Switch
+K switch
+$ENDCMP
+#
+$CMP TPS62147
+D 3A Step-Down Converter with DCS-Control, Adjustable Output Voltage, 3-17V Input Voltage, QFN-16
+K step-down dcdc
+F http://www.ti.com/lit/ds/symlink/tps62130.pdf
+$ENDCMP
+#
+$CMP UEXT
+D Olimex UEXT connector (2x5 box header)
+$ENDCMP
+#
+$CMP USB_A_stacked
+D USB Type A connector (stacked)
+K connector USB
+F  ~
+$ENDCMP
+#
+$CMP VREF
+D Power symbol creates a global label with name "VREF"
+K power-flag
+$ENDCMP
+#
+#End Doc Library

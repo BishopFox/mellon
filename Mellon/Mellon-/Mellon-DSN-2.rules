@@ -1,0 +1,83 @@
+
+(rules PCB Mellon-DSN-2
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 3240)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.3)
+    )
+    (layer_rule B.Cu
+      (active off)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.3)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clearance 250.2)
+    (clearance 125.0 (type smd_to_turn_gap))
+    (clearance 62.6 (type smd))
+    (clearance 250.2 (type "kicad_default"))
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu)
+    )
+  )
+  (class "kicad_default"
+    +3.3V GND +12Vin "Net-(U2-A)" "Net-(U2-B)" "Net-(U1-PGOOD)" "unconnected-(U1-NC-Pad6)" "Net-(U1-BST)"
+    /RXD{slash}P0.08 /P0.04 /TXD{slash}P0.06 "+5V_RS485" "Net-(D1-K)" "unconnected-(MD1-P0.25-Pad2)" "unconnected-(MD1-P0.26-Pad3)" "unconnected-(MD1-P0.27-Pad4)"
+    "unconnected-(MD1-P0.28-Pad5)" "unconnected-(MD1-P0.29-Pad6)" "unconnected-(MD1-P0.30-Pad7)" "unconnected-(MD1-P0.31-Pad8)" "Net-(MD1-DEC4)" "Net-(MD1-DCC)" "Net-(MD1-P0.00{slash}XL1)" "Net-(MD1-P0.01{slash}XL2)"
+    "unconnected-(MD1-P0.02-Pad15)" "unconnected-(MD1-P0.03-Pad16)" "unconnected-(MD1-P0.05-Pad18)" "unconnected-(MD1-P0.07-Pad20)" "unconnected-(MD1-P0.09-Pad22)" "unconnected-(MD1-P0.10-Pad23)" "unconnected-(MD1-P0.11-Pad25)" "unconnected-(MD1-P0.12-Pad26)"
+    "unconnected-(MD1-P0.13-Pad27)" "unconnected-(MD1-P0.14-Pad28)" "unconnected-(MD1-P0.15-Pad29)" "unconnected-(MD1-P0.16-Pad30)" "Net-(MD1-P0.17)" "unconnected-(MD1-P0.18-Pad32)" "Net-(MD1-P0.19)" "unconnected-(MD1-P0.20-Pad34)"
+    "unconnected-(MD1-P0.22-Pad38)" "unconnected-(MD1-P0.23-Pad41)" "unconnected-(MD1-P0.24-Pad40)" "Net-(D2-K)" "Net-(D3-A)" "Net-(D4-A)" /SWCLK /SWDIO
+    /NRST
+    (clearance_class "kicad_default")
+    (via_rule "kicad_default")
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu)
+    )
+  )
+)

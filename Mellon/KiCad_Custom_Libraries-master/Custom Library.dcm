@@ -1,0 +1,1739 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +0.825V_REF
+K POWER, PWR
+$ENDCMP
+#
+$CMP +1.2V
+K POWER, PWR
+$ENDCMP
+#
+$CMP +1.2VFF
+K POWER, PWR
+$ENDCMP
+#
+$CMP +1.2V_ETH
+K POWER, PWR
+$ENDCMP
+#
+$CMP +1.65V_REF
+K POWER, PWR
+$ENDCMP
+#
+$CMP +1.8V
+K POWER, PWR
+$ENDCMP
+#
+$CMP +12VAC
+K POWER, PWR
+$ENDCMP
+#
+$CMP +12Vin
+K POWER, PWR
+$ENDCMP
+#
+$CMP +12VinP
+K POWER, PWR
+$ENDCMP
+#
+$CMP +170
+K POWER, PWR
+$ENDCMP
+#
+$CMP +180
+K POWER, PWR
+$ENDCMP
+#
+$CMP +20V
+D Power symbol creates a global label with name "+3V3"
+K power-flag
+$ENDCMP
+#
+$CMP +24Vin
+K POWER, PWR
+$ENDCMP
+#
+$CMP +3.3VA_ETH
+D Power symbol creates a global label with name "+3.3VA"
+K power-flag
+$ENDCMP
+#
+$CMP +3.3VA_MZ
+D Power symbol creates a global label with name "+3.3VA"
+K power-flag
+$ENDCMP
+#
+$CMP +3.3V_BCKP
+K POWER, PWR
+$ENDCMP
+#
+$CMP +3.3V_MNG
+K POWER, PWR
+$ENDCMP
+#
+$CMP +3.3V_PGL
+D Power symbol creates a global label with name "+3.3VA"
+K power-flag
+$ENDCMP
+#
+$CMP +3.3V_POX
+D Power flag
+K power-flag
+$ENDCMP
+#
+$CMP +3.3V_SW
+D Power flag
+K power-flag
+$ENDCMP
+#
+$CMP +3.3V_TFT
+D Power flag
+K power-flag
+$ENDCMP
+#
+$CMP +3.3V_USB
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +3V3_ALS
+D power-flag symbol +3.3V
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +5.5V
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +5.5V_MNG
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +5VADC
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +5V_CHRG
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +5V_DSP
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +5V_ISO
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +5V_MNG
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +5V_RS485
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +5V_USB
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +6.7V
+K POWER, PWR
+$ENDCMP
+#
+$CMP +60VAN
+K POWER, PWR
+$ENDCMP
+#
+$CMP +9V_BATT
+D power-flag symbol (positive battery voltage)
+K Power Flag Symbol battery
+$ENDCMP
+#
+$CMP +VValve
+K POWER, PWR
+$ENDCMP
+#
+$CMP +Vvv
+K POWER, PWR
+$ENDCMP
+#
+$CMP -12VAC
+K POWER, PWR
+$ENDCMP
+#
+$CMP 16x2_Color_LCD
+D 16x2 Color LCD
+$ENDCMP
+#
+$CMP 2N3906
+D Transistor PNP (general)
+K pnp transistor
+$ENDCMP
+#
+$CMP 2N7000g
+D Small Signal Mosfet N Channel
+K N-Channel MOSFET
+$ENDCMP
+#
+$CMP 2N7002
+D 0.115A Id, 60V Vds, N-channel MOSFET, SOT-23
+K N-Channel Switching MOSFET
+F https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf
+$ENDCMP
+#
+$CMP 4026
+D Decade Counters/Dividers
+$ENDCMP
+#
+$CMP 4060
+D Binary Counter 12 stages (Asynchronous)
+K CMOS CNT CNT12
+F cmos4000/MC14040.pdf
+$ENDCMP
+#
+$CMP 4093
+D Quad Nand2 schmitt trigger
+K Quad NAND Schmitt Trigger
+$ENDCMP
+#
+$CMP 4093(1)
+D Quad Nand2 schmitt trigger
+K Quad NAND Schmitt Trigger
+$ENDCMP
+#
+$CMP 5011AS
+D Amazon 7 Segment Display Common Cathode
+$ENDCMP
+#
+$CMP 74AHC1G125
+D Single Buffer Gate Tri-State, Low-Voltage CMOS
+K Single Gate Buff Tri-State LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74AHCT1G125
+D Single Buffer Gate Tri-State, Low-Voltage CMOS
+K Single Gate Buff Tri-State LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74AUC1G125
+D Single Buffer Gate Tri-State, Low-Voltage CMOS
+K Single Gate Buff Tri-State LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74AUC1G79
+D Single D Flip-Flop, Low-Voltage CMOS
+K Single D Flip-Flop D CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74AUP1G125
+D Single Buffer Gate Tri-State, Low-Voltage CMOS
+K Single Gate Buff Tri-State LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74AUP1G79
+D Single D Flip-Flop, Low-Voltage CMOS
+K Single D Flip-Flop D CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74HC138
+D Decoder 3 to 8 active low outputs
+K TTL DECOD DECOD8
+F https://www.diodes.com/assets/Datasheets/74HC138.pdf
+$ENDCMP
+#
+$CMP 74HC151
+D Multiplexer 8 to 1
+K CMOS MUX8
+$ENDCMP
+#
+$CMP 74HC238
+D Decoder 3 to 8
+K HC DECOD DECOD8
+$ENDCMP
+#
+$CMP 74HC4040
+D Binary Counter 12 stages (Asynchronous)
+K CMOS CNT CNT12
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT4040.pdf
+$ENDCMP
+#
+$CMP 74HC4511
+D BCD to 7 segments Driver
+K HC DECOD DECOD7
+$ENDCMP
+#
+$CMP 74HC4514
+D Decoder 4 to 16
+K HC DECOD16 DECOD
+$ENDCMP
+#
+$CMP 74HC595
+D 8 bits serial in // out Shift Register 3 State Out
+K HCMOS SR 3State
+F 74xx/74HC595.pdf
+$ENDCMP
+#
+$CMP 74LS595
+D 8 bits serial in // out Shift Register 3 State Out
+K TTL SR 3State
+$ENDCMP
+#
+$CMP 74LS596
+D 8 bits serial in // out Shift Register Open Collect.
+K HCMOS SR OpenCol
+$ENDCMP
+#
+$CMP 74LVC1G00_Power
+D Single NAND Gate, Low-Voltage CMOS
+K Single Gate NAND LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74LVC1G06_Power
+D Single NOT Gate w/ Open Drain, Low-Voltage CMOS
+K Single Gate NOT LVC CMOS Open Drain
+F http://www.ti.com/lit/ds/symlink/sn74lvc1g06.pdf
+$ENDCMP
+#
+$CMP 74LVC1G07_Power
+D Single Buffer Gate w/ Open Drain, Low-Voltage CMOS
+K Single Gate Buff LVC CMOS Open Drain
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74LVC1G08_Power
+D Single AND Gate, Low-Voltage CMOS
+K Single Gate AND LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74LVC1G08_SON6
+D Single AND Gate, Low-Voltage CMOS
+K Single Gate AND LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74LVC1G123_Power
+D Single Retrigerrable Monostabile Multivibrator, Low-Voltage CMOS
+K Single Mono Multivibrator CMOS
+F http://www.ti.com/lit/ds/symlink/sn74lvc1g123.pdf
+$ENDCMP
+#
+$CMP 74LVC1G125_Power
+D Single Buffer Gate Tri-State, Low-Voltage CMOS
+K Single Gate Buff Tri-State LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74LVC1G14_Power
+D Single Schmitt NOT Gate, Low-Voltage CMOS, SC-70-5
+K Single Gate NOT Schmitt LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74LVC1G17_Power
+D Single Schmitt Buffer Gate, Low-Voltage CMOS
+K Single Gate Buff Schmitt LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74LVC1G240_Power
+D Single Buffer/Driver Gate Tri-State, Low-Voltage CMOS
+K Single Gate Buff/Drv Tri-State LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74LVC1G32_Power
+D Single OR Gate, Low-Voltage CMOS
+K Single Gate OR LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74LVC1G38_Power
+D Single NAND Gate Open Drain, Low-Voltage CMOS
+K Single Gate NAND Open Drain LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74LVC1G79_Power
+D Single D Flip-Flop, Low-Voltage CMOS
+K Single D Flip-Flop D CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74LVC1G80_Power
+D Single D Flip-Flop Iverted Output, Low-Voltage CMOS
+K Single D Flip-Flop CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74LVC1G86_Power
+D Single EX-OR Gate, Low-Voltage CMOS
+K Single Gate EX-OR LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74LVC1G97_Power_AND
+D Single AND Gate, Low-Voltage CMOS
+K Single Gate AND LVC CMOS
+F http://www.ti.com/lit/ds/symlink/sn74lvc1g97.pdf
+$ENDCMP
+#
+$CMP 74LVC1G97_Power_AND_INV
+D Single AND Gate, Low-Voltage CMOS
+K Single Gate AND LVC CMOS
+F http://www.ti.com/lit/ds/symlink/sn74lvc1g97.pdf
+$ENDCMP
+#
+$CMP 74LVC1G97_Power_BUF
+D Single AND Gate, Low-Voltage CMOS
+K Single Gate AND LVC CMOS
+F http://www.ti.com/lit/ds/symlink/sn74lvc1g97.pdf
+$ENDCMP
+#
+$CMP 74LVC1G97_Power_MUX
+D Single AND Gate, Low-Voltage CMOS
+K Single Gate AND LVC CMOS
+F http://www.ti.com/lit/ds/symlink/sn74lvc1g97.pdf
+$ENDCMP
+#
+$CMP 74LVC1G97_Power_NAND_INV
+D Single AND Gate, Low-Voltage CMOS
+K Single Gate AND LVC CMOS
+F http://www.ti.com/lit/ds/symlink/sn74lvc1g97.pdf
+$ENDCMP
+#
+$CMP 74LVC1G97_Power_NOR_INV
+D Single AND Gate, Low-Voltage CMOS
+K Single Gate AND LVC CMOS
+F http://www.ti.com/lit/ds/symlink/sn74lvc1g97.pdf
+$ENDCMP
+#
+$CMP 74LVC1G97_Power_NOT
+D Single AND Gate, Low-Voltage CMOS
+K Single Gate AND LVC CMOS
+F http://www.ti.com/lit/ds/symlink/sn74lvc1g97.pdf
+$ENDCMP
+#
+$CMP 74LVC1G97_Power_OR
+D Single AND Gate, Low-Voltage CMOS
+K Single Gate AND LVC CMOS
+F http://www.ti.com/lit/ds/symlink/sn74lvc1g97.pdf
+$ENDCMP
+#
+$CMP 74LVC1G97_Power_OR_INV
+D Single AND Gate, Low-Voltage CMOS
+K Single Gate AND LVC CMOS
+F http://www.ti.com/lit/ds/symlink/sn74lvc1g97.pdf
+$ENDCMP
+#
+$CMP 74LVC2G06_Power
+D Dual NOT Gate w/ Open Drain, Low-Voltage CMOS
+K Dual Gate NOT Open Drain LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74LVC2G14_Power
+D Dual NOT Gate Schmitt Triggered, Low-Voltage CMOS
+K Dual Gate NOT Schmitt LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74LVC2G17_Power
+D Dual Buffer Schmitt Triggered, Low-Voltage CMOS
+K Dual Buffer Schmitt LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74LVC2G74_Power
+D 74AUC1G74, Single D Flip-Flop, Low-Voltage CMOS
+K Single D Flip-Flop D CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74LVC3G06_Power
+D Triple NOT Gate w/ Open Drain, Low-Voltage CMOS
+K Triple Gate NOT Open Drain LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74VHC541
+D 8-bit Buffer/Line Driver 3-state outputs
+K TTL BUFFER 3State BUS
+F https://assets.nexperia.com/documents/data-sheet/74VHC_VHCT541.pdf
+$ENDCMP
+#
+$CMP A1101LLHL
+D Hall effect switch, unipolar, Bop=100G, Brp=45G, -40C to +125C
+K hall switch
+F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
+$ENDCMP
+#
+$CMP A1102ELHL
+D Hall effect switch, unipolar, Bop=180G, Brp=125G, -40C to +85C
+K hall switch
+F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
+$ENDCMP
+#
+$CMP A1102LLHL
+D Hall effect switch, unipolar, Bop=180G, Brp=125G, -40C to +125C
+K hall switch
+F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
+$ENDCMP
+#
+$CMP A1103ELHL
+D Hall effect switch, unipolar, Bop=280G, Brp=225G, -40C to +85C
+K hall switch
+F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
+$ENDCMP
+#
+$CMP A1103LLHL
+D Hall effect switch, unipolar, Bop=280G, Brp=225G, -40C to +125C
+K hall switch
+F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
+$ENDCMP
+#
+$CMP A1104LLHL
+D Hall effect switch, unipolar, Bop=240G, Brp=200G, -40C to +125C
+K hall switch
+F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
+$ENDCMP
+#
+$CMP A1106LLHL
+D Hall effect switch, unipolar, Bop=340G, Brp=240G, -40C to +125C
+K hall switch
+F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
+$ENDCMP
+#
+$CMP AB15BH-FA
+D Double Single Pole Double Throw (SPDT) switch
+$ENDCMP
+#
+$CMP ACS712
+D Fully Integrated, Hall Effect-Based Linear Current Sensor IC with 2.1 kVRMS Isolation and a Low-Resistance Current Conductor
+$ENDCMP
+#
+$CMP AD8421ARZ
+D Low Power, Instumentation Amplifier, SOIC-8
+K ad8421 instumentation amplifier soic-8
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8421.pdf
+$ENDCMP
+#
+$CMP AD8421BRZ
+D Low Power, Instumentation Amplifier, SOIC-8
+K ad8421 instumentation amplifier soic-8
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8421.pdf
+$ENDCMP
+#
+$CMP AD8422ARZ
+D Low Power, Rail to Rail, Instumentation Amplifier, SOIC-8
+K ad8422 instumentation amplifier soic-8
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8422.pdf
+$ENDCMP
+#
+$CMP AD8422BRZ
+D Low Power, Rail to Rail, Instumentation Amplifier, SOIC-8
+K ad8422 instumentation amplifier soic-8
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8422.pdf
+$ENDCMP
+#
+$CMP AD8429ARZ
+D Low Noise, Instumentation Amplifier, SOIC-8
+K ad8429 instumentation amplifier soic-8
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8429.pdf
+$ENDCMP
+#
+$CMP AD8429BRZ
+D Low Noise, Instumentation Amplifier, SOIC-8
+K ad8429 instumentation amplifier soic-8
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8429.pdf
+$ENDCMP
+#
+$CMP ADC121C021
+D 12 bit ADC, I2C
+$ENDCMP
+#
+$CMP ADUM3160
+D USB Isolator
+$ENDCMP
+#
+$CMP AH1815
+D Hall effect switch, unipolar, Bop=100G, Brp=45G, -40C to +85C
+K hall switch
+F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
+$ENDCMP
+#
+$CMP APT1211A
+D DIP6,  Zero Cross Opto-Triac, Vdrm 250V, Ift 15mA
+K Opto-Triac Opto Triac Zero Cross
+F http://www.fairchildsemi.com/ds/MO/MOC3031M.pdf
+$ENDCMP
+#
+$CMP ASMB-MTB1-0A3A2
+D Common Anode RGB LED
+K RGB LED
+$ENDCMP
+#
+$CMP ATMEGA168PA-A
+D TQFP32, 16k Flash, 1kB SRAM, 512B EEPROM
+K AVR 8bit Microcontroller MegaAVR PicoPower
+F http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf
+$ENDCMP
+#
+$CMP ATMEGA328-A
+D TQFP32, 32k Flash, 2kB SRAM, 1kB EEPROM
+K AVR 8bit Microcontroller MegaAVR
+F http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf
+$ENDCMP
+#
+$CMP ATMEGA328-P
+D PDIP28 Narrow, 32k Flash, 2kB SRAM, 1kB EEPROM
+K AVR 8bit Microcontroller MegaAVR
+F http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf
+$ENDCMP
+#
+$CMP ATMEGA328A-AU
+D TQFP32, 16k Flash, 1kB SRAM, 512B EEPROM
+K AVR 8bit Microcontroller MegaAVR
+F http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf
+$ENDCMP
+#
+$CMP ATMEGA328P-A
+D TQFP32, 32k Flash, 2kB SRAM, 1kB EEPROM
+K AVR 8bit Microcontroller MegaAVR PicoPower
+F http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf
+$ENDCMP
+#
+$CMP ATMEGA328P-AU
+D TQFP32, 32k Flash, 2kB SRAM, 1kb EEPROM
+K AVR 8bit Microcontroller MegaAVR
+F http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf
+$ENDCMP
+#
+$CMP ATMEGA328P-PU
+D PDIP28 Narrow, 32k Flash, 2kB SRAM, 512B EEPROM
+K AVR 8bit Microcontroller MegaAVR
+F http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf
+$ENDCMP
+#
+$CMP ATMEGA48A-A
+D TQFP32, 4k Flash, 512B SRAM, 256B EEPROM
+K AVR 8bit Microcontroller MegaAVR
+F http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf
+$ENDCMP
+#
+$CMP ATMEGA48PA-A
+D TQFP32, 4k Flash, 512B SRAM, 256B EEPROM
+K AVR 8bit Microcontroller MegaAVR PicoPower
+F http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf
+$ENDCMP
+#
+$CMP ATMEGA48PA-P
+D PDIP28 Narrow, 4k Flash, 512B SRAM, 256B EEPROM
+K AVR 8bit Microcontroller MegaAVR PicoPower
+F http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf
+$ENDCMP
+#
+$CMP ATMEGA88A-A
+D TQFP32, 8k Flash, 1kB SRAM, 512B EEPROM
+K AVR 8bit Microcontroller MegaAVR
+F http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf
+$ENDCMP
+#
+$CMP ATMEGA88PA-A
+D TQFP32, 8k Flash, 1kB SRAM, 512B EEPROM
+K AVR 8bit Microcontroller MegaAVR PicoPower
+F http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf
+$ENDCMP
+#
+$CMP ATMEGA88PA-P
+D PDIP28 Narrow, 8k Flash, 1kB SRAM, 512B EEPROM
+K AVR 8bit Microcontroller MegaAVR PicoPower
+F http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf
+$ENDCMP
+#
+$CMP ATWINC1500-MR210PB
+F https://ww1.microchip.com/downloads/en/DeviceDoc/ATWINC15x0-MR210xB-IEEE-802.11-b-g-n-SmartConnect-IoT-Module-Data-Sheet-DS70005304C.pdf
+$ENDCMP
+#
+$CMP ATtiny85-20PU
+D 8 bit Micro, Atmel
+K ATtiny, tiny, ATtiny85, AT
+$ENDCMP
+#
+$CMP ATtiny85-20SU
+D 8 bit Micro, Atmel
+K ATtiny, tiny, ATtiny85, AT
+$ENDCMP
+#
+$CMP BSC026NE2LS5ATMA1
+D 24A Id, 25V Vds
+F https://www.infineon.com/dgdl/Infineon-BSC026NE2LS5-DS-v02_00-EN.pdf?fileId=5546d4624bcaebcf014c0950eede22f3
+$ENDCMP
+#
+$CMP BSC032N04LSATMA1
+D 40V Vds, 21A Id, N-channel MOSFET, TDSON-8
+K N-Channel MOSFET
+F https://www.infineon.com/dgdl/Infineon-BSC032N04LS-DS-v02_00-en.pdf?fileId=db3a304342371bb001424bc4f341701d
+$ENDCMP
+#
+$CMP BT138-800G
+D TRIAC, BTA series pinout
+K TRIAC
+F /home/walter/Documents/Elettronica/DATA_SHEET/Elettronici/Discreti/Triac/ST_BTA24.pdf
+$ENDCMP
+#
+$CMP Bridge_Rectifier
+D Diode bridge
+K Graetz
+$ENDCMP
+#
+$CMP CD2048B
+D 4 to 10 BCD to Decimal Decoder
+$ENDCMP
+#
+$CMP CD40109B
+D CMOS Quad Low-To-High Voltage Shifter
+K Level Shift 4000 CMOS
+$ENDCMP
+#
+$CMP CD4511B
+D BCD to 7 segments Driver, Open Collect, 30V outputs
+K TTL DECOD DECOD7 OpenCol
+$ENDCMP
+#
+$CMP CDCS503
+D Clock Buffer with Optional SSC
+F http://www.ti.com/lit/ds/symlink/cdcs503.pdf
+$ENDCMP
+#
+$CMP CLVBA-FKA
+D Cree RGB LED PLCC4
+K RGB LED
+$ENDCMP
+#
+$CMP CP_Tant_Custom
+D Polarised capacitor
+K cap capacitor
+$ENDCMP
+#
+$CMP C_Custom
+D Unpolarized capacitor
+K cap capacitor
+$ENDCMP
+#
+$CMP Cap_Touch
+D Test Point
+$ENDCMP
+#
+$CMP DAC8551
+D 16-Bit, Ultralow-Glitch, Voltage-Output Digital‑to‑Analog Converter
+K DAC
+F http://www.ti.com/lit/ds/symlink/dac8551.pdf
+$ENDCMP
+#
+$CMP DLW5ATN501MQ2L
+D EMI 2-inductor filter, pin-connections 1-4 and 2-3
+K EMI filter common-mode choke
+F https://www.murata.com/en-us/products/productdata/8796759031838/EFLC0026.pdf
+$ENDCMP
+#
+$CMP DPDT_SW
+D inverseur
+K switch
+$ENDCMP
+#
+$CMP DS1117
+D 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT223
+K REGULATOR LDO 3.3V
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP DS1307
+D RTC Chip
+$ENDCMP
+#
+$CMP DS1683
+D Total-Elapsed-Time and Event Recorder with Alarm
+K elapsed time counter
+F https://datasheets.maximintegrated.com/en/ds/DS1683.pdf
+$ENDCMP
+#
+$CMP D_Schottky_Custom
+D Schottky diode
+K diode Schottky
+$ENDCMP
+#
+$CMP DipSw4
+D 4 Bit Dip Switch
+$ENDCMP
+#
+$CMP ECS-327KE
+D Clock Oscillator CMOS Enable
+$ENDCMP
+#
+$CMP FAN5602MP5X
+D Universal Step Up/Step Down Charge Pump Regulated DC/DC Converter, 5V, DFN8
+K Universal Step Up/Step Down Charge Pump Regulated DC/DC Converter
+F https://www.fairchildsemi.com/datasheets/FA/FAN5602.pdf
+$ENDCMP
+#
+$CMP FB_Custom
+D Inductor
+K inductor choke coil reactor magnetic
+$ENDCMP
+#
+$CMP FDC5612
+D N-MOSFET transistor
+K transistor NMOS N-MOS N-MOSFET
+F https://www.onsemi.com/pub/Collateral/FDC5612-D.PDF
+$ENDCMP
+#
+$CMP FMMT734
+D 30V Vce, 1A Ic, PNP Darlington Transistor, TO-92
+K BC516 PNP Darlington Darl Transistor
+F http://www.fairchildsemi.com/ds/BC/BC516.pdf
+$ENDCMP
+#
+$CMP FT234XD
+D Basic UART USB Bridge
+F http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT234XD.pdf
+$ENDCMP
+#
+$CMP GNDA_MZ
+D Power symbol creates a global label with name "GNDA" , analog ground
+K power-flag
+$ENDCMP
+#
+$CMP GND_ISO
+D GROUND power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP GND_RS485
+D GROUND power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP GND_USB
+D GROUND power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP HDSP-511E
+D 7 segments display - Common anode
+K DISPLAY LED
+$ENDCMP
+#
+$CMP ICS502
+D LOCO PLL CLOCK MULTIPLIER
+$ENDCMP
+#
+$CMP INA231A
+D High- or Low-Side Measurement, Bidirectional Current and Power Monitor With 1.8-V I2C Interface
+F http://www.ti.com/lit/ds/symlink/ina231.pdf
+$ENDCMP
+#
+$CMP IPC100N04S51R7ATMA1
+D 25A Id, 30V Vds, NexFET N-Channel Power MOSFET, 6.9mOhm Ron, Qg (typ) 7.9nC, SON8 5x6mm
+K NexFET Power MOSFET N-MOS
+F https://www.infineon.com/dgdl/Infineon-IPC100N04S5-1R7-DS-v01_02-EN.pdf?fileId=5546d46253f65057015419c2835252f3
+$ENDCMP
+#
+$CMP IRFP9240PBF
+D -200V Vds, -12A Id, P-Channel MOSFET, TO-247
+K P-Channel MOSFET
+$ENDCMP
+#
+$CMP KW4-56NCLB-P
+D Luckylight 4 x 7-segment common cathode display
+K 7 SEGMENTS 4 display
+$ENDCMP
+#
+$CMP L4931-3.3
+D Positive 100mA 30V Linear Regulator, Fixed Output 5V, TO-92
+K Voltage Regulator 100mA Positive
+F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
+$ENDCMP
+#
+$CMP LAN8720A
+D LAN8720 Ethernet PHY with RMII interface
+K ETH PHY RMII
+F http://ww1.microchip.com/downloads/en/DeviceDoc/8720a.pdf
+$ENDCMP
+#
+$CMP LD1117S12TR
+D 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 1.2V, SOT223
+K REGULATOR LDO 1.2V
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117S18TR
+D 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 1.8V, SOT223
+K REGULATOR LDO 1.8V
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117S25TR
+D 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 2.5V, SOT223
+K REGULATOR LDO 2.5V
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117S50TR
+D 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 5.0V, SOT223
+K REGULATOR LDO 5.0V
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LDD-E304NI
+D Double 7 segment red LED common anode
+K Double 7 segment red LED common anode
+$ENDCMP
+#
+$CMP LDQ-M512RI
+D 4 digit 7 segment green LED, common anode
+K 4 digit 7 segment green LED, common anode
+$ENDCMP
+#
+$CMP LDQ-M516RI
+D 4 digit 7 segment red LED, common anode
+K 4 digit 7 segment red LED, common anode
+$ENDCMP
+#
+$CMP LED_ALT_Custom
+D LED generic, alternativ symbol
+K led diode
+$ENDCMP
+#
+$CMP LED_RGB
+D LED RGB 6 pins
+$ENDCMP
+#
+$CMP LM2574
+D TI Simple Switcher 0.5A
+$ENDCMP
+#
+$CMP LM2596
+D TI Simple Switcher 3A 5V
+$ENDCMP
+#
+$CMP LM2936
+D LM2936 Ultra-Low Quiescent Current LDO Voltage Regulator
+K POWER REGUL
+$ENDCMP
+#
+$CMP LM3914
+D LED Bar Graph driver
+$ENDCMP
+#
+$CMP LM5050-1
+D Full Featured N+1 and ORing Power Rail Controller, TSSOP-14
+K ideal-diode or-ing undervoltage overvoltage
+F http://www.ti.com/lit/ds/symlink/tps2410.pdf
+$ENDCMP
+#
+$CMP LM5060_Custom
+D High side protection controller, +5.5V to +65V operation, VSSOP-10 package
+K high-voltage mosfet-driver hot-swap
+F http://www.ti.com/lit/ds/symlink/lm5060.pdf
+$ENDCMP
+#
+$CMP LM7812
+D Linear Regulator +12V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP LMH6559
+D Op amp.
+K AmpliOp
+F op_amps/tl071.pdf
+$ENDCMP
+#
+$CMP LMH6559-DBV
+D Buffer
+$ENDCMP
+#
+$CMP LP2985
+D Low Noise LDO
+$ENDCMP
+#
+$CMP LP5009
+D LP50xx 9-Channel, 12-Bit PWM Ultra-low Quiescent Current I2C RGB LED Drivers
+F https://www.ti.com/lit/ds/symlink/lp5009.pdf?ts=1596330853683
+$ENDCMP
+#
+$CMP LP8545
+D 36-Channel 12-Bit PWM Ultra-low Quiescent Current I2C RGB LED Driver
+K PWM LED driver I2C
+F http://www.ti.com/lit/ds/symlink/lp8545.pdf
+$ENDCMP
+#
+$CMP LPV812DGK
+D Dual operational amplifier, 8kHz GBW, 425 nA/channel quiescent, 100 fA input bias, 300 uV offset max, 1 uV/C, VSSOP-8
+K dual opamp low-power rail-to-rail
+F https://www.ti.com/lit/ds/symlink/lpv812.pdf
+$ENDCMP
+#
+$CMP LT1010
+D High speed analog Buffer
+K Buffer
+$ENDCMP
+#
+$CMP LT1010DD
+D High speed analog Buffer, DFN8
+K Buffer
+$ENDCMP
+#
+$CMP LT1945
+D Dual Micropower DC/DC Converter with Positive and Negative Outputs
+$ENDCMP
+#
+$CMP LT3473
+D Micropower 1A Boost Converter with Schottky and Output Disconnect
+$ENDCMP
+#
+$CMP LT3757
+D Boost, Flyback, SEPIC and Inverting Controller
+F http://www.analog.com/media/en/technical-documentation/data-sheets/3757Afe.pdf
+$ENDCMP
+#
+$CMP LT3798
+D Isolated No Opto-Coupler Flyback Controller with Active PFC
+$ENDCMP
+#
+$CMP LT3973-DD
+D 42V, 750mA Step-Down Regulator with 2.5µA Quiescent Current and Integrated Diodes (DFN)
+F http://cds.linear.com/docs/en/datasheet/3973fb.pdf
+$ENDCMP
+#
+$CMP LT6018
+D 36V, Ultralow Noise, Precision Op Amp
+K 36V, Ultralow Noise, Precision Op Amp
+$ENDCMP
+#
+$CMP LT6018IDE
+D 36V, Ultralow Noise, Precision Op Amp
+K 36V, Ultralow Noise, Precision Op Amp
+$ENDCMP
+#
+$CMP LT6700-1-S6
+D Micropower, Low Voltage, Dual Comparator with 400mV Reference
+F http://www.analog.com/media/en/technical-documentation/data-sheets/6700123fh.pdf
+$ENDCMP
+#
+$CMP LT8606DC
+D 42V, 350mA Synchronous Step-Down Regulator with 2.5uA Quiescent Current
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT8606-8606B.pdf
+$ENDCMP
+#
+$CMP LT8620-MSE
+D Step-Up/Step-Down Switched Capacitor DC/DC Converters with Reset
+K Charge Pump
+$ENDCMP
+#
+$CMP LT8643S
+D 42V 6A Synchronous Step-Down Silent Switcher 2 with 2.5uA Quiescent Current
+$ENDCMP
+#
+$CMP LTC1694
+D SMBus/I2C Accelerator
+K I2C Accelerator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1694fa.pdf
+$ENDCMP
+#
+$CMP LTC2601
+D 16 Bit Rail-to-Rail DAC in 10-Lead DFN
+$ENDCMP
+#
+$CMP LTC2946DE
+D Wide Range I2C Power, Charge and Energy Meter
+$ENDCMP
+#
+$CMP LTC2946MS
+D Wide Range I2C Power, Charge and Energy Meter
+$ENDCMP
+#
+$CMP LTC2951-1
+D Pushbutton On/Off Controller
+$ENDCMP
+#
+$CMP LTC2954
+D Pushbutton Controller
+$ENDCMP
+#
+$CMP LTC2954-2
+D Pushbutton Controller
+$ENDCMP
+#
+$CMP LTC3103
+D 1.8μA Quiescent Current, 15V, 300mA Synchronous Step-Down DC/DC Converter
+$ENDCMP
+#
+$CMP LTC3112HD
+D 15V, 2.5A Synchronous Buck-Boost DC/DC Converter
+$ENDCMP
+#
+$CMP LTC3128-UFD
+D 3A Monolithic Buck-Boost Supercapacitor Charger and Balancer with Accurate Input Current Limit
+F http://www.analog.com/media/en/technical-documentation/data-sheets/3128f.pdf
+$ENDCMP
+#
+$CMP LTC3129UD
+D 15V, 200mA Synchronous Buck-Boost DC/DC Converter with 1.3uA Quiescent Current
+K Buck Boost, Low Power, Micropower, Low IQ, Linear, LTC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3129fc.pdf
+$ENDCMP
+#
+$CMP LTC3130-1UDC
+D 25V, 600mA Buck-Boost DC/DC Converter with 1.6uA Quiescent Current
+$ENDCMP
+#
+$CMP LTC3130UDC
+D 25V, 600mA Buck-Boost DC/DC Converter with 1.6uA Quiescent Current
+$ENDCMP
+#
+$CMP LTC3221
+D Micropower, Regulated Charge Pump in 2 x 2 DFN
+F http://www.analog.com/media/en/technical-documentation/data-sheets/3221f.pdf
+$ENDCMP
+#
+$CMP LTC3226
+D 2-Cell Supercapacitor Charger with Backup PowerPath Controller
+$ENDCMP
+#
+$CMP LTC3568
+D 1.8A, 4MHz, Synchronous Step-Down DC/DC Conveter
+K LT Switch Linear
+$ENDCMP
+#
+$CMP LTC3604UD
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3604fa.pdf
+$ENDCMP
+#
+$CMP LTC3605A_UF
+D 20V, 5A Synchronous Step-Down Regulator, QFN-24
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3605afg.pdf
+$ENDCMP
+#
+$CMP LTC3624DD
+D 17V, 2A Synchronous Step-Down Regulator with 3.5uA Quiescent Current
+F https://www.analog.com/media/en/technical-documentation/data-sheets/36242fd.pdf
+$ENDCMP
+#
+$CMP LTC3833_UDC
+D Fast Accurate Step-Down DC/DC Controller with Differential Output Sensing
+F http://www.analog.com/media/en/technical-documentation/data-sheets/3833f.pdf
+$ENDCMP
+#
+$CMP LTC4041UFD
+D 2.5A Supercapacitor Backup Power Manager
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LTC4041.pdf
+$ENDCMP
+#
+$CMP LTC4151DD
+D High Voltage I2C Current and Power Monitor
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4151ff.pdf
+$ENDCMP
+#
+$CMP LTC4316DD
+D Single I2C/SMBUS Address Translator
+K Single I2C/SMBUS Address Translator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4316fa.pdf
+$ENDCMP
+#
+$CMP LTC4365DDB
+D Overvoltage, Undervoltage and Reverse Supply Protection Controller, 3x2mm DFN-8 package, 50Hz/60Hz noise rejection
+K overvoltage undervoltage reverse-polarity protection
+F http://cds.linear.com/docs/en/datasheet/4365fa.pdf
+$ENDCMP
+#
+$CMP LTC4413DD
+D Dual 2.6A, 2.5V to 5.5V Ideal Diodes in 3mmx3mm DFN
+$ENDCMP
+#
+$CMP LTC4415DHC
+D 18V Dual Input Micropower PowerPath Prioritizer
+K Ideal Diode Powerpath Priority
+F http://www.analog.com/media/en/technical-documentation/data-sheets/4419fa.pdf
+$ENDCMP
+#
+$CMP LTC4419DD
+D 18V Dual Input Micropower PowerPath Prioritizer
+K Ideal Diode Powerpath Priority
+F http://www.analog.com/media/en/technical-documentation/data-sheets/4419fa.pdf
+$ENDCMP
+#
+$CMP LTC6240IS5
+D Single 18MHz Low Noide Rail to Rail CMOS Op Amp, SOT-23-5
+K single opamp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/624012fe.pdf
+$ENDCMP
+#
+$CMP LTC6655
+D 0.25ppm Noise, Low Drift Precision References
+$ENDCMP
+#
+$CMP LTC6900
+D Low Power, 1kHz to 20MHz Resistor Set SOT-23 Oscillator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/6900fa.pdf
+$ENDCMP
+#
+$CMP LTC6994
+D TimerBlox: Delay Block/Debouncer
+$ENDCMP
+#
+$CMP LTC7851UHH
+D Quad Output, Multiphase Step-Down Voltage Mode DC/DC Controller with Accurate Current Sharing, QFN-58
+F http://www.analog.com/media/en/technical-documentation/data-sheets/LTC7851.pdf
+$ENDCMP
+#
+$CMP L_Custom
+D Inductor
+K inductor choke coil reactor magnetic
+$ENDCMP
+#
+$CMP Led_2_iso
+D DOUBLE type Bicolore
+K LED
+$ENDCMP
+#
+$CMP Led_x2
+D DOUBLE type Bicolore
+K LED
+$ENDCMP
+#
+$CMP Led_x2_CA
+D DOUBLE type Bicolore
+K LED
+$ENDCMP
+#
+$CMP Line_Filter
+D EMI Filter
+K EMI
+$ENDCMP
+#
+$CMP M2012SA2W30
+D Double Single Pole Double Throw (SPDT) switch
+$ENDCMP
+#
+$CMP MAX6675
+D K Type Thermocouple Amp, SPI
+$ENDCMP
+#
+$CMP MAX6816
+D ±15kV ESD-Protected, Single CMOS Switch Debouncer
+K Switch, Debounder, MAXIM, MAX
+F https://datasheets.maximintegrated.com/en/ds/MAX6816-MAX6818.pdf
+$ENDCMP
+#
+$CMP MAX6818
+D +/- 15kV ESD-Proteced Octal CMOS Switch Debouncer
+K SW pushbutton MAX PB bounce debouce
+F https://datasheets.maximintegrated.com/en/ds/MAX6816-MAX6818.pdf
+$ENDCMP
+#
+$CMP MAX6958
+D I2C Interfaced, 4-Digit LED Display Driver
+$ENDCMP
+#
+$CMP MAX7221
+D Serially Interfaced, 8-Digit LED Display Driver
+$ENDCMP
+#
+$CMP MC34063
+D 1.5A step up/down/inverting switching regulator
+K smps buck boost inverting
+F http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF
+$ENDCMP
+#
+$CMP MCP111
+D 3 Pin Supply Voltage Supervisor
+$ENDCMP
+#
+$CMP MCP73833T-AMI
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22005b.pdf
+$ENDCMP
+#
+$CMP MCP809
+D 3 Pin Supply Voltage Supervisor
+$ENDCMP
+#
+$CMP MCP9804
+D Microchip Technology Digital Temperature Sensor DFN
+K temperature sensor I2C
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22203b.pdf
+$ENDCMP
+#
+$CMP MMBF170
+D 60V Vds, 0.5 A Id, N-channel MOSFET, SOT-23
+K N-Channel MOSFET
+F https://www.diodes.com/assets/Datasheets/ds30104.pdf
+$ENDCMP
+#
+$CMP MOC3033M
+D DIP4,  Zero Cross Opto-Triac
+K Opto-Triac Opto Triac Zero Cross
+$ENDCMP
+#
+$CMP MPSA92
+D Transistor PNP (High Voltage)
+K pnp transistor, High Voltage, 500 mA CE
+$ENDCMP
+#
+$CMP MQ3
+D Alcohol Sensor
+$ENDCMP
+#
+$CMP NRF24L01
+D NRF24L01, 2.4GHz Radio Transceiver
+$ENDCMP
+#
+$CMP NXQ1TXH5_101J
+D One-chip 5V Qi Wireless TRansmitter, QFN-32
+F https://media.digikey.com/pdf/Data%20Sheets/NXP%20PDFs/NXQ1TXH5.pdf
+$ENDCMP
+#
+$CMP Nut
+D Hardware, Standoff
+$ENDCMP
+#
+$CMP OPA1692xDGK
+D Dual SoundPlus Low Power, Low Noise & Low Distortion Audio Operational Amplifiers, VSSOP-8
+K VFA opamp
+F https://www.ti.com/lit/ds/symlink/opa1692.pdf
+$ENDCMP
+#
+$CMP OPA2156xDGK
+D Dual 36V, Ultra Low Noise, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, VSSOP-8
+K dual opamp low-noise r2r
+F http://www.ti.com/lit/ds/symlink/opa2156.pdf
+$ENDCMP
+#
+$CMP OPA2196xDGK
+D Dual, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, VSSOP-8
+K dual opamp rtor
+F http://www.ti.com/lit/ds/symlink/opa4196.pdf
+$ENDCMP
+#
+$CMP OPA2197xDGK
+D Dual 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, VSSOP-8
+K dual opamp rtor
+F http://www.ti.com/lit/ds/symlink/opa2197.pdf
+$ENDCMP
+#
+$CMP OPT3001
+D Ambient Light Sensor
+K Light Digital Ambient TI Texas
+F http://www.ti.com/lit/ds/symlink/opt3001.pdf
+$ENDCMP
+#
+$CMP OPTO
+D Generic DC Optocoupler
+K NPN DC Optocoupler
+$ENDCMP
+#
+$CMP PDA54-11SRWA
+D Commom Anode Alphanumeric Display
+$ENDCMP
+#
+$CMP PI6ULS5V9617AUE
+D Level Translating Fast-Mode Plus I2C-bus/SMbus Repeater
+K Level Translating Fast-Mode Plus I2C-bus/SMbus Repeater
+F https://www.diodes.com/assets/Datasheets/PI6ULS5V9617A.pdf
+$ENDCMP
+#
+$CMP PIC16F54
+D Flash-Based, 8-Bit CMOS Microcontroller
+$ENDCMP
+#
+$CMP PIC18(L)F1XK22
+D PIC PIC® XLP™ 18K Microcontroller IC 8-Bit 64MHz 128KB (64K x 16) FLASH 64-TQFP (10x10)
+K PIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PIC18(L)F67K40%20Data%20Sheet%2040001841D.pdf
+$ENDCMP
+#
+$CMP PIC18(L)F27K40T-I_ML
+D PIC18(L)F 8 bit Microcontroller, High Performance, 64 MHz, 128k FLASH, 3k SRAM, 1k EEPROM, QFN-28
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PIC18LF27_47K40-Data-Sheet-40001844E.pdf
+$ENDCMP
+#
+$CMP PIC18F2221
+D Enhanced Flash Microcontrollers with 10-Bit A/D and nanoWatt Technology
+$ENDCMP
+#
+$CMP PIC32MZ0512EFE064T-I_PT
+D 32-bit MCUs, 512KB Flash, 128 KB SRAM, with FPU, Audio and Graphics Interfaces, HS USB, Ethernet, and Advanced Analog
+K PIC32 PIC32MZ PIC 32 bit
+F http://ww1.microchip.com/downloads/en/DeviceDoc/60001320E.pdf
+$ENDCMP
+#
+$CMP PIC32MZ2048EFG100_IPT
+D 32-bit MCUs, 2 MB Flash, 512 KB SRAM, with FPU, Audio and Graphics Interfaces, HS USB, Ethernet, and Advanced Analog
+K PIC32 PIC32MZ PIC 32 bit
+F http://ww1.microchip.com/downloads/en/DeviceDoc/60001320E.pdf
+$ENDCMP
+#
+$CMP PIC32MZ2048EFH100-250I_PF-ND
+D 32-bit MCUs, 2 MB Flash, 512 KB SRAM, with FPU, Audio and Graphics Interfaces, HS USB, Ethernet, and Advanced Analog
+K PIC32 PIC32MZ PIC 32 bit
+F http://ww1.microchip.com/downloads/en/DeviceDoc/60001320E.pdf
+$ENDCMP
+#
+$CMP PIC32MZ2048EFH144_IPL
+D PIC32MZ 32 bit Micro, 2048KB Flash, 512k SRAM, TQFP-144
+F http://ww1.microchip.com/downloads/en/DeviceDoc/60001320D.pdf
+$ENDCMP
+#
+$CMP POT_Sw
+D Potentiometer
+K resistor variable
+$ENDCMP
+#
+$CMP Polyfuse_custom
+D resettable fuse, polymeric positive temperature coefficient (PPTC)
+K resettable fuse PTC PPTC polyfuse polyswitch
+$ENDCMP
+#
+$CMP Power_Darlington_NPN_BCE
+D Power Darlington NPN BCE
+K Darlington Power Transistor NPN
+$ENDCMP
+#
+$CMP R_Custom
+D Resistor
+K Resistor
+$ENDCMP
+#
+$CMP R_PACK8
+D 8 resistors Pack
+K R DEV
+$ENDCMP
+#
+$CMP SCR
+D Thyristor
+$ENDCMP
+#
+$CMP SCR_cag
+D Thyristor
+$ENDCMP
+#
+$CMP SCR_small
+D Thyristor
+$ENDCMP
+#
+$CMP SN74LVC1G08
+D And 2 inputs
+K CMOS And2
+$ENDCMP
+#
+$CMP SN74LVC1G11
+D And 3 inputs
+K CMOS And3
+$ENDCMP
+#
+$CMP SN74LVC1G14
+D Single Schmitt Inverter
+$ENDCMP
+#
+$CMP SN74LVC1G32
+D Single Or 2 inputs
+K CMOS Or2
+$ENDCMP
+#
+$CMP SPX1521
+D SPX1521 Ultra-Low Quiescent Current LDO Voltage Regulator
+K POWER REGUL
+$ENDCMP
+#
+$CMP SSD1306
+D I2C OLED Display
+$ENDCMP
+#
+$CMP STWD100YNWWY3F
+D Watch dog timer, 5.1ms timeout
+F https://www.st.com/content/ccc/resource/technical/document/datasheet/06/6a/b3/83/9a/c7/4f/22/CD00176077.pdf/files/CD00176077.pdf/jcr:content/translations/en.CD00176077.pdf
+$ENDCMP
+#
+$CMP Schmitt_Inverter
+D Single Inverter Schmitt Trigger
+$ENDCMP
+#
+$CMP Si3932DV
+D Dual N channel MOSFET 30VDS 3.7A
+$ENDCMP
+#
+$CMP Si4946BEY
+D Dual NMOS transistor, 8 pin package
+$ENDCMP
+#
+$CMP SiC779
+D Integrated DrMOS Power Stage, 40A, 12VIN, PowerPAK MLP 6mm x 6mm 40
+F http://www.vishay.com/docs/67538/sic779.pdf
+$ENDCMP
+#
+$CMP SiR836DP
+D 40V Vds, 021A Id, N-channel MOSFET, PowerPAK SO-8
+K N-Channel MOSFET
+F http://www.vishay.com/docs/65543/sir836dp.pdf
+$ENDCMP
+#
+$CMP Standoff
+D Hardware, Standoff
+$ENDCMP
+#
+$CMP TCN75A
+D Microchip Digital temperature Sensor
+$ENDCMP
+#
+$CMP TDA4092
+D 5 Bit binary input dual digit seven segment display driver (active low)
+$ENDCMP
+#
+$CMP TEA1731TS
+D GreenChip SMPS control IC
+$ENDCMP
+#
+$CMP THVD1552
+D RS-485 full duplex transceiver, VSSOP-10
+K RS485 transceiver full duplex
+F https://www.ti.com/lit/ds/symlink/thvd1550.pdf?ts=1601515909374&ref_url=https%253A%252F%252Fwww.google.com%252F
+$ENDCMP
+#
+$CMP TL081
+F op_amps/tl081.pdf
+$ENDCMP
+#
+$CMP TL2575
+D TI Simple Switcher 1A 5V
+$ENDCMP
+#
+$CMP TL2596
+D TI Simple Switcher 3A 5V
+$ENDCMP
+#
+$CMP TL331
+D Single General-Purpose Comparator, SOT-23-5/SC-70-5
+K single comparator
+F http://www.ti.com/lit/ds/symlink/tl331.pdf
+$ENDCMP
+#
+$CMP TLV431
+D 1.24V Shunt Regulator
+K Shunt
+$ENDCMP
+#
+$CMP TLV6700
+D Micropower, Low Voltage, Dual Comparator with 400mV Reference
+F http://www.ti.com/lit/ds/symlink/tlv6700.pdf
+$ENDCMP
+#
+$CMP TLV809K33
+D 3 Pin Supply Voltage Supervisor - 3.3V
+$ENDCMP
+#
+$CMP TOP245Y
+D Extended Power, Design Flexible,
+$ENDCMP
+#
+$CMP TP
+D Test Point
+$ENDCMP
+#
+$CMP TPD3S014DBVR
+D TPD3S0x4 Current Limit Switch and D+/D– ESD Protection for USB Host Ports, SOT-23-6
+K ESD, current limit
+F http://www.ti.com/lit/ds/symlink/tpd3s014.pdf
+$ENDCMP
+#
+$CMP TPS2411PWR
+D Full Featured N+1 and ORing Power Rail Controller, TSSOP-14
+K ideal-diode or-ing undervoltage overvoltage
+F http://www.ti.com/lit/ds/symlink/tps2410.pdf
+$ENDCMP
+#
+$CMP TPS2413PWR
+D Full Featured N+1 and ORing Power Rail Controller, TSSOP-14
+K ideal-diode or-ing undervoltage overvoltage
+F http://www.ti.com/lit/ds/symlink/tps2410.pdf
+$ENDCMP
+#
+$CMP TPS25942A
+D 2.7 V-18 V, 5-A eFuse Power MUX With Multiple Protection Modes, Current Limiter, Auto-Retry
+F http://www.ti.com/lit/ds/symlink/tps25944l.pdf
+$ENDCMP
+#
+$CMP TPS25942L
+D 2.7 V-18 V, 5-A eFuse Power MUX With Multiple Protection Modes, Current Limiter, Latched
+$ENDCMP
+#
+$CMP TPS25944A
+D 2.7 V-18 V, 5-A eFuse Power MUX With Multiple Protection Modes, Circuit Breaker, Auto-Retry
+$ENDCMP
+#
+$CMP TPS25944L
+D 2.7 V-18 V, 5-A eFuse Power MUX With Multiple Protection Modes, Circuit Breaker, Latched
+$ENDCMP
+#
+$CMP TPS26600RHFT
+D TPS2660x 60-V, 2-A Industrial eFuse With Integrated Reverse Input Polarity Protection VQFN (24)
+F http://www.ti.com/lit/ds/symlink/tps2660.pdf
+$ENDCMP
+#
+$CMP TPS61230DRC
+D High Efficiency Synchronous Step Up Converters with 5-A Switches
+K Boost, Step Up, DC/DC,
+F http://www.ti.com/lit/ds/symlink/tps61230.pdf
+$ENDCMP
+#
+$CMP TPS62130
+D 3A Step-Down Converter with DCS-Control, Adjustable Output Voltage, 3-17V Input Voltage, QFN-16
+K step-down dcdc
+F http://www.ti.com/lit/ds/symlink/tps62130.pdf
+$ENDCMP
+#
+$CMP TPS62150
+D 3A Step-Down Converter with DCS-Control, Adjustable Output Voltage, 3-17V Input Voltage, QFN-16
+K step-down dcdc
+F https://www.ti.com/lit/ds/symlink/tps62150.pdf?&ts=1589125931316
+$ENDCMP
+#
+$CMP TPS7A91
+D 1A, High-Accuracy, Low-Noise LDO Voltage Regulator, Texas S-PDSO-N10
+K LDO voltage regulator
+F http://www.ti.com/lit/ds/symlink/tps7a91.pdf
+$ENDCMP
+#
+$CMP TP_Pad
+D Test Point
+$ENDCMP
+#
+$CMP TVS
+D Transient voltage suppressor diode (bi-directional)
+K DEV TVS TRANSIENT SUPPROESSOR ESD
+$ENDCMP
+#
+$CMP TVS_2
+D Transient voltage suppressor diode (bi-directional)
+K DEV TVS TRANSIENT SUPPROESSOR ESD
+$ENDCMP
+#
+$CMP TVS_Custom
+D Transient voltage suppressor diode (bi-directional)
+K DEV TVS TRANSIENT SUPPROESSOR ESD
+$ENDCMP
+#
+$CMP UC1874
+D High Efficiency, Synchronous, Step-down (Buck) Controllers
+$ENDCMP
+#
+$CMP VAN
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP VBAT
+D Power symbol creates a global label with name "VCC"
+K power-flag
+$ENDCMP
+#
+$CMP VCC_BCKUP
+K POWER, PWR
+$ENDCMP
+#
+$CMP VFF
+K POWER, PWR
+$ENDCMP
+#
+$CMP VHU
+D power-flag symbol (holdup voltage)
+K Power Flag Symbol Holdup
+$ENDCMP
+#
+$CMP VIO
+D positive voltage power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP VLED
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP VTANK
+D power-flag symbol (holdup voltage)
+K Power Flag Symbol Holdup
+$ENDCMP
+#
+$CMP VTANK_OR
+D power-flag symbol (holdup voltage)
+K Power Flag Symbol Holdup
+$ENDCMP
+#
+$CMP Vff
+K POWER, PWR
+$ENDCMP
+#
+$CMP Vin
+K POWER, PWR
+$ENDCMP
+#
+$CMP Vout
+K POWER, PWR
+$ENDCMP
+#
+$CMP Vvv
+K POWER, PWR
+$ENDCMP
+#
+$CMP Wurth_750811248
+D SMPS Transformer Wurth Electronics
+$ENDCMP
+#
+$CMP Wurth_750811630
+D SMPS Transformer Wurth Electronics
+$ENDCMP
+#
+$CMP ZENER
+D Diode zener
+K DEV DIODE
+$ENDCMP
+#
+$CMP ZENER_Custom
+D Diode zener
+K DEV DIODE
+$ENDCMP
+#
+$CMP ZXGD3005
+D MOSFET Gate Driver
+K MOSFET Gate Driver
+$ENDCMP
+#
+$CMP ZXMS6004FFTA
+D Power Switch/Driver 1:1 N-Channel 1.3A 60V SOT-23F
+K N-Channel MOSFET
+F https://www.diodes.com/assets/Datasheets/ZXMS6004FF.pdf
+$ENDCMP
+#
+$CMP nodeMCU_ESP8266
+D node MCU ESP8266 WiFi Module
+$ENDCMP
+#
+#End Doc Library

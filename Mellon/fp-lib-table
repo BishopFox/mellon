@@ -1,0 +1,9 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "footprints-MDBT42Q")(type "KiCad")(uri "${KIPRJMOD}/ul_MDBT42Q-P512KV2/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "Custom Footprints Library")(type "KiCad")(uri "${KIPRJMOD}/KiCad_Custom_Libraries-master/Custom Footprints Library.pretty")(options "")(descr ""))
+  (lib (name "eec")(type "KiCad")(uri "${KIPRJMOD}/UNK_Adafruit Industries_4077/eec.pretty")(options "")(descr ""))
+  (lib (name "footprints-MAX")(type "KiCad")(uri "${KIPRJMOD}/ul_MAX485CSA-T/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/ul_MAX485CSA-/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "footprints-KVX")(type "KiCad")(uri "${KIPRJMOD}/ul_009176002022106/KiCADv6/footprints.pretty")(options "")(descr ""))
+)
