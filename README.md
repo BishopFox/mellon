@@ -41,3 +41,15 @@ If you have a controller you want to test, then great. Use that. If you don't, t
 
 Some of the attacks in `attack_osdp.py` will expect to be as a full MitM between a functioning reader and controller. To test these, you might need *three* USB<-->RS485 adapters, hooked together with a breadboard.
 
+### Additional Medium / Low Risk Issues
+
+These issues are not, in isolation, exploitable but nonetheless represent a weakening of the protocol, implementation, or overall system.
+
+- MACs are truncated to 32 bits "to reduce overhead". This is _very_ nearly (but not quite in our calculation) within practical exploitable range.
+- IVs (which are derived from MACs) are similarly reduced to 32 bits of entropy. This will cause IV reuse, which is a big red flag for a protocol.
+- Session keys are only generated using 48 bits of entropy from the controller RNG nonce. This appears to not be possible for an observing attacker to enumerate offline, however. (Unless we're missing something, in which case this would become a _critical_ issue.)
+- Sequence numbers consist of only 2 bits, not providing sufficient liveness.
+- CBC-mode encryption is used. GCM would be a more modern block cipher mode appropriate for network protocols.
+- SCS modes 15 & 16 are essentially "null ciphers", and should not exist. They don't encrypt data.
+- The OSDP command byte is always unencrypted, even in the middle of a Secure Channel session. This is a huge benefit to attackers, making attack tools much easier to write. It means that an attacker can always see what "type" of packet is being sent, even if it's otherwise encrypted. Attackers can tell when people badge in, when the LED lights up, etc... This is not information that should be in plaintext.
+- SCBK-D (a hardcoded "default" encryption key) provides no security and should be removed. It serves only to obfuscate and provide a false sense of security. 
